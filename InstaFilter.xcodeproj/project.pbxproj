@@ -11,6 +11,8 @@
 		677B01D72996833900AACA3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677B01D62996833900AACA3B /* ContentView.swift */; };
 		677B01D92996833900AACA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677B01D82996833900AACA3B /* Assets.xcassets */; };
 		677B01DC2996833900AACA3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677B01DB2996833900AACA3B /* Preview Assets.xcassets */; };
+		677B01E32996838500AACA3B /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677B01E22996838500AACA3B /* ImageSaver.swift */; };
+		677B01E52996847500AACA3B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677B01E42996847500AACA3B /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		677B01D62996833900AACA3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		677B01D82996833900AACA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		677B01DB2996833900AACA3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		677B01E22996838500AACA3B /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		677B01E42996847500AACA3B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				677B01D62996833900AACA3B /* ContentView.swift */,
 				677B01D82996833900AACA3B /* Assets.xcassets */,
 				677B01DA2996833900AACA3B /* Preview Content */,
+				677B01E22996838500AACA3B /* ImageSaver.swift */,
+				677B01E42996847500AACA3B /* ImagePicker.swift */,
 			);
 			path = InstaFilter;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				677B01D72996833900AACA3B /* ContentView.swift in Sources */,
+				677B01E52996847500AACA3B /* ImagePicker.swift in Sources */,
+				677B01E32996838500AACA3B /* ImageSaver.swift in Sources */,
 				677B01D52996833900AACA3B /* InstaFilterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
